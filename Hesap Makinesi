@@ -1,0 +1,14 @@
+sayi1=int(input("Bir Sayi Giriniz:"))
+sayi2=int(input("Bir Sayi Daha giriniz:"))
+islemler = int(input("Bir islem Giriniz 1-TOPLAMA 2-ÇIKARMA 3-ÇARPMA 4-BÖLME"))
+if(islemler==1):
+    print("Sonuç:",sayi1+sayi2)
+
+elif(islemler==2):
+    print("Sonuç:",sayi1-sayi2)
+elif(islemler==3):
+    print("Sonuç:",sayi1*sayi2)
+elif(islemler==4):
+    print("Sonuç:",sayi1/sayi2)
+else:
+    print("1-4 arası Bir islem seciniz HATA")
